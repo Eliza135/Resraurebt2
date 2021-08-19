@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+nav{
+    width: 100%;
+ 
+    height: 80px;
+    line-height: 80px;
+  display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 39px;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+   color: rgb(253, 251, 251) ;
+     font-size: 25px;
+     transition: .3s all ease;
+}
+ul{
+    margin:  0px ;
+   margin-right: 100px;
+}
+ul li{
+    float: left;
+    padding: 0px 15px;
+    list-style: none;
+}
+ul li a:hover{
+color: red;
+background-color: rosybrown;
+}
+.header{
+    background-image: url('banner2.jpg');
+     background-position: center;   
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(241, 241, 247);
+    text-align: center;
+    background: rgba(0,0,0,0.5) ;
+    height: 390px;
+}
+.content h1{
+    font-size: 50px;
+    color: rgb(228, 185, 228);
+}
+.content p{
+    padding: 0 100px;
+    font-size: 20px;
+}
+button{
+    background: none;
+    border: 1px solid white;
+    color: rgb(199, 240, 194);
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: .5s all ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(236, 65, 65);
+}
